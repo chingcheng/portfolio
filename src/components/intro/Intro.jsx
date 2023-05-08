@@ -7,7 +7,6 @@ import './intro.css';
 const Intro = () => {
   return (
     <section id="about">
-      <h5>Get to know</h5>
       <h2>About Me</h2>
       <div className="container about__container">
         <div className="about__me">
@@ -28,7 +27,7 @@ const Intro = () => {
               <small>20+ Completed Projects</small>
             </article>
           </div>
-          <p>I’ve spent the last several months in a remote environment, working with HTML, CSS, JavaScript, building everything from landing pages to APIs. My experience as a teacher in an international school helped me collaborate with fellow developers from all over the world. Additionally, working with kids isn’t an easy task, however, it has helped me become efficient, productive, and fast even in a very stressful environment, which is an important skill in the tech industry.</p>
+          <p>I am a full stack software engineer who is passionate about debugging code, user experience, and accessibility. My passion for software engineering stems from my teaching background in public education and experience in a technology focused school. I am currently raising a black lab puppy for Guide Dogs for the Blind, where my drive for accessibility comes from. I am currently seeking new opportunities to connect and grow in my career. My experience as a teacher helped me become efficient and adaptable, and fast even in a very stressful environment, which is an important skill in the tech industry.</p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>
