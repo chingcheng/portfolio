@@ -1,5 +1,7 @@
 import React from 'react';
+import IMG1 from '../../assets/munch.png';
 import IMG2 from '../../assets/swift2.png';
+import IMG3 from '../../assets/conference_go.png';
 
 import './portfolio.css';
 
@@ -8,10 +10,10 @@ const Portfolio = () => {
     {
       id: 1,
       title: 'Munch',
-      img: IMG2,
+      img: IMG1,
       description:
         'Munch is a social media platform dedicated to food reviews and recommendations. Munch allows users to share their dining experiences through photos and reviews of the restaurants they visit. ',
-      technologies: 'FastAPI | React.js | PostgreSQL | Python | Bootstrap | CSS',
+      technologies: 'FastAPI | React | JavaScript | Python | Bootstrap | CSS | Docker | PostgreSQL | CI/CD',
       link: 'https://munchbunch.gitlab.io/munch/',
       gitlab: 'https://gitlab.com/munchbunch/munch',
     },
@@ -20,25 +22,24 @@ const Portfolio = () => {
       title: 'Swift',
       img: IMG2,
       description:
-        'Swift is an web application for car dealerships to manage their inventory, service, and sales departments.',
-      technologies: 'Django | React | Docker ',
-      github: '',
+        'Swift is a web application for car dealerships to manage their inventory, service, and sales departments.',
+      technologies: 'React | Django | JavaScript | Python | Bootstrap | PostgreSQL | Docker',
+      gitlab: 'https://gitlab.com/mschingcheng/swift',
     },
     {
       id: 3,
-      title: 'Puppy Tracker',
-      img: IMG2,
+      title: 'Conference Go',
+      img: IMG3,
       description:
-        'Fully responsive interactive website built based on Figma design',
-      technologies: 'Django | Python | HTML | CSS',
-      link: 'https://meri-mg.github.io/shelter/pages/main/index.html',
-      gitlab: 'https://github.com/Meri-MG/shelter',
+        'Conference Go is a web application to manage conferences and attendees with user authentication.',
+      technologies: 'React | Django | JavaScript | Python | Bootstrap | HTML | CSS | Docker',
+      gitlab: 'https://https://gitlab.com/mschingcheng/fearless-frontend',
     },
   ];
 
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
+      <h5>My Recent Projects</h5>
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
@@ -61,14 +62,16 @@ const Portfolio = () => {
               >
                 GitLab
               </a>
-              <a
-                href={pro.link}
-                target="_blank"
-                className="btn btn-primary"
-                rel="noreferrer"
-              >
-                Visit Website
-              </a>
+              {pro.link ? (
+                <a
+                  href={pro.link}
+                  target="_blank"
+                  className="btn btn-primary"
+                  rel="noreferrer"
+                >
+                  Visit Website
+                </a>
+              ) : null}
             </div>
           </article>
         ))}

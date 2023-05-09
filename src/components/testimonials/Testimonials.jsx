@@ -50,8 +50,8 @@ const Testimonials = () => {
     },
   ];
   return (
-    <section id="testmonials">
-      <h5>Feedback from my peers</h5>
+    <section id="testimonials">
+      {/* <h5>Feedback from my peers</h5> */}
       <h2>Testimonials</h2>
       <Swiper
         className="container testimonials__container"
