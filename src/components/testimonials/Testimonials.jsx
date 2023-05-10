@@ -17,8 +17,7 @@ const Testimonials = () => {
       id: 1,
       link: 'https://www.linkedin.com/in/dnam74/',
       name: 'Daniel Nam',
-      role: 'Fullstack Web Developer',
-      test: "Working with Ching was an amazing experience. She was consistently able to communicate her ideas clearly and was a standout on any assignments our projects we worked on together. In addition, Ching is a quick learner and is very eager to tackle new concepts. I'm confident that she will find success in any environment that she is placed in and 'am excited for her future endeavors as a software engineer.",
+      test: "Working with Ching was an amazing experience. She was consistently able to communicate her ideas clearly and was a standout on any assignments our projects we worked on together. In addition, Ching is a quick learner and is very eager to tackle new concepts. I'm confident that she will find success in any environment that she is placed in and I'm excited for her future endeavors as a software engineer.",
     },
     {
       id: 2,
@@ -31,27 +30,23 @@ const Testimonials = () => {
       id: 3,
       link: 'https://www.linkedin.com/in//',
       name: 'Esther Kim',
-      role: '',
       test: "Throughout our professional journey together, I had the privilege of witnessing Ching's brilliance as a software engineer.  Her meticulous problem-solving skills, coupled with an unwavering commitment to quality code, consistently elevated our projects to new heights. Moreover, Ching's exceptional ability to communicate complex concepts and foster a collaborative atmosphere truly made her the go-to person on our team. Without a doubt, I wholeheartedly recommend Ching for any software engineering role or challenge that lies ahead.",
     },
     {
       id: 4,
       link: 'https://www.linkedin.com/in//',
       name: 'Tyler Herman',
-      role: 'Backend Software Engineer',
       test: "",
     },
     {
       id: 5,
       link: 'https://www.linkedin.com/in//',
       name: 'Matthew Mai',
-      role: 'Frontend Software Developer',
       test: "",
     },
   ];
   return (
     <section id="testimonials">
-      {/* <h5>Feedback from my peers</h5> */}
       <h2>Testimonials</h2>
       <Swiper
         className="container testimonials__container"

@@ -1,6 +1,7 @@
 import React from 'react';
 import { BsLinkedin } from 'react-icons/bs';
 import { FaGithub } from 'react-icons/fa';
+import { FaGitlab } from 'react-icons/fa';
 import './footer.css';
 
 const Footer = () => {
@@ -24,6 +25,7 @@ const Footer = () => {
       <div className="footer__socials">
       <a href="https://www.linkedin.com/in/ching-cheng/" target="_blank" rel="noreferrer" ><BsLinkedin /></a>
       <a href="https://github.com/chingcheng" target="_blank" rel="noreferrer" ><FaGithub /></a>
+      <a href="https://gitlab.com/mschingcheng" target="_blank" rel="noreferrer" ><FaGitlab /></a>
       </div>
       <div className="footer__copyright">
         <small>&copy; {getYear()}. All rights reserved.</small>
