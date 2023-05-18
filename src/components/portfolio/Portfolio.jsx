@@ -2,7 +2,7 @@ import React from 'react';
 import IMG1 from '../../assets/munch.png';
 import IMG2 from '../../assets/swift2.png';
 import IMG3 from '../../assets/conference_go.png';
-
+import { FaGitlab } from 'react-icons/fa';
 import './portfolio.css';
 
 const Portfolio = () => {
@@ -53,6 +53,16 @@ const Portfolio = () => {
               <p>{pro.technologies}</p>
             </div>
             <div className="portfolio__item-cta">
+              {/* {pro.link ? (
+                <a
+                  href={pro.link}
+                  target="_blank"
+                  className="btn btn-primary"
+                  rel="noreferrer"
+                >
+                  Website
+                </a>
+              ) : null} */}
               <a
                 href={pro.gitlab}
                 target="_blank"
@@ -61,16 +71,6 @@ const Portfolio = () => {
               >
                 GitLab
               </a>
-              {pro.link ? (
-                <a
-                  href={pro.link}
-                  target="_blank"
-                  className="btn btn-primary"
-                  rel="noreferrer"
-                >
-                  Visit Website
-                </a>
-              ) : null}
             </div>
           </article>
         ))}
