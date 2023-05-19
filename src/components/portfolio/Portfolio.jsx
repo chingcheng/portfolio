@@ -2,7 +2,7 @@ import React from 'react';
 import IMG1 from '../../assets/munch.png';
 import IMG2 from '../../assets/swift2.png';
 import IMG3 from '../../assets/conference_go.png';
-import { FaGitlab } from 'react-icons/fa';
+// import { FaGitlab } from 'react-icons/fa';
 import './portfolio.css';
 
 const Portfolio = () => {
