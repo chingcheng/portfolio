@@ -28,7 +28,7 @@ const Testimonials = () => {
     },
     {
       id: 3,
-      link: 'https://www.linkedin.com/in//',
+      link: 'https://www.linkedin.com/in/kimesther117/',
       name: 'Esther Kim',
       test: "Throughout our professional journey together, I had the privilege of witnessing Ching's brilliance as a software engineer.  Her meticulous problem-solving skills, coupled with an unwavering commitment to quality code, consistently elevated our projects to new heights. Moreover, Ching's exceptional ability to communicate complex concepts and foster a collaborative atmosphere truly made her the go-to person on our team. Without a doubt, I wholeheartedly recommend Ching for any software engineering role or challenge that lies ahead.",
     },
