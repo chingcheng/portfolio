@@ -33,7 +33,7 @@ const Portfolio = () => {
       description:
         'Conference Go is a web application to manage conferences and attendees with user authentication.',
       technologies: 'React | Django | JavaScript | Python | Bootstrap | HTML | CSS | Docker',
-      gitlab: 'https://https://gitlab.com/mschingcheng/fearless-frontend',
+      gitlab: 'https://gitlab.com/mschingcheng/fearless-frontend',
     },
   ];
 

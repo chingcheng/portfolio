@@ -38,12 +38,6 @@ const Testimonials = () => {
       name: 'Daniel Nam',
       test: "Working with Ching was an amazing experience. She was consistently able to communicate her ideas clearly and was a standout on any assignments our projects we worked on together. In addition, Ching is a quick learner and is very eager to tackle new concepts. I'm confident that she will find success in any environment that she is placed in and I'm excited for her future endeavors as a software engineer.",
     },
-    {
-      id: 5,
-      link: 'https://www.linkedin.com/in//',
-      name: 'Tyler Herman',
-      test: "",
-    },
   ];
   return (
     <section id="testimonials">
